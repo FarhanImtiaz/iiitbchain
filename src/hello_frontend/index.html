@@ -1,17 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>IC Hello Starter</title>
-  <base href="/" />
-  <link rel="icon" href="/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhan's Watch Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+        }
+        .watch {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .watch img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            border-radius: 8px;
+        }
+        .watch-description {
+            margin-top: 10px;
+        }
+    </style>
 </head>
-
 <body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
 
+<header>
+    <h1>Farhan's Luxurious Watch Collection</h1>
+    <p>A glimpse of elegance and sophistication</p>
+</header>
+
+<section>
+    <div class="watch">
+        <h2>Rolex Submariner</h2>
+        <img src="https://example.com/rolex-submariner.jpg" alt="Rolex Submariner">
+        <div class="watch-description">
+            <p>The Rolex Submariner is a symbol of style and precision. With its water-resistant design and iconic look, it's perfect for both underwater adventures and formal events.</p>
+        </div>
+    </div>
+
+    <div class="watch">
+        <h2>Omega Speedmaster</h2>
+        <img src="https://example.com/omega-speedmaster.jpg" alt="Omega Speedmaster">
+        <div class="watch-description">
+            <p>The Omega Speedmaster, famously known as the Moonwatch, is renowned for its role in space exploration. A classic timepiece for those who appreciate adventure and history.</p>
+        </div>
+    </div>
+
+    <div class="watch">
+        <h2>Tag Heuer Carrera</h2>
+        <img src="https://example.com/tag-heuer-carrera.jpg" alt="Tag Heuer Carrera">
+        <div class="watch-description">
+            <p>The Tag Heuer Carrera is a watch that blends sportiness with elegance. Designed for professional drivers and sports enthusiasts, it's both bold and stylish.</p>
+        </div>
+    </div>
+</section>
+
+</body>
 </html>
